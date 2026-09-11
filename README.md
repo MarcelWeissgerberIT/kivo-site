@@ -8,4 +8,4 @@ GitHub Pages publishes the `docs/` folder on `main`. The site supports English a
 
 This repository contains only the generated website and downloadable Mac app. The application source is maintained separately.
 
-The Kivo 0.9.7 Mac download is a Developer ID signed, Apple-notarized DMG. Open it and drag Kivo into Applications. It requires macOS 26 or later on Apple silicon.
+The Kivo 0.9.8 Mac download is a Developer ID signed, Apple-notarized DMG. Open it and drag Kivo into Applications. It requires macOS 26 or later on Apple silicon.
