@@ -1,17 +1,17 @@
 {
-  "fileName": "Kivo-0.9.2-Mac.zip",
-  "bytes": 28679887,
-  "sha256": "d9f2397426c356211422e0a1e258196cb0cd4e5137fce4edb806242115be3f77",
+  "fileName": "Kivo-0.9.3-Mac.zip",
+  "bytes": 28705092,
+  "sha256": "af570d29b3cac340a1d7fb844d54717dbcc29c3a741276d7b1a2c59daccac635",
   "parts": [
     {
       "name": "kivo-mac.part-001",
       "bytes": 20971520,
-      "sha256": "731781d60edd8265d1910a5d124faf1609489a6653a54aeec74e2a6f9b042572"
+      "sha256": "a4f927a2f02b93fca043880e5f61340e438d38a59bff87881fee3ac2342b5cf3"
     },
     {
       "name": "kivo-mac.part-002",
-      "bytes": 7708367,
-      "sha256": "b6ff06e07eeac21ce997f0fdaa127ec0a4bc0ddc46cc4564427856c9ceed322f"
+      "bytes": 7733572,
+      "sha256": "fb923c81414eecfb8dc6574211a67a57a361f2aa42fe3b3ece99a1f3efa7085c"
     }
   ]
 }
