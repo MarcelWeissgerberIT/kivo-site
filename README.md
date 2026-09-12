@@ -4,10 +4,16 @@ The public Kivo website and Mac download.
 
 Visit **https://marcelweissgerberit.github.io/kivo-site/**.
 
+The public landing page can later use **https://kivo.com.ai/** after the
+Cloudflare DNS record and the GitHub Pages custom-domain setting are added.
+The account and API service stay on their own HTTPS hosts (for example
+`account.kivo.com.ai` and `api.kivo.com.ai`); GitHub Pages only serves the
+static landing page and download.
+
 GitHub Pages publishes the `docs/` folder on `main`. The site supports English and German and follows the visitor’s system language.
 
 This repository contains only the generated website and downloadable Mac app. The application source is maintained separately.
 
-The Kivo 0.10.0 Mac download is a Developer ID signed, Apple-notarized DMG. Open it and drag Kivo into Applications. It requires macOS 26 or later on Apple silicon.
+The Kivo 0.11.0 Mac download is a Developer ID signed, Apple-notarized DMG. Open it and drag Kivo into Applications. It requires macOS 26 or later on Apple silicon.
 
-Version 0.10.0 adds queued tasks, restarting earlier work, project subfolders, guided tryouts, per-task MCP call limits, optional local maintenance checks and static review packages. Public review links require an operator-configured HTTPS service; they are not enabled by this static website.
+Version 0.11.0 adds the bilingual account and OAuth-ready commerce flow, clearer cycle and question status, self-improving task rounds, result cards, local voice feedback, MCP tool controls and the signed Mac connection. Public account and review services require an operator-configured HTTPS backend; they are not enabled by this static website.
