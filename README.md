@@ -2,10 +2,11 @@
 
 The public Kivo website and Mac download.
 
-Visit **https://marcelweissgerberit.github.io/kivo-site/**.
+Visit **https://kivo.com.ai/**.
 
-The public landing page can later use **https://kivo.com.ai/** after the
-Cloudflare DNS record and the GitHub Pages custom-domain setting are added.
+The public landing page uses Cloudflare DNS and the GitHub Pages custom domain
+`kivo.com.ai`. Its assets are built at the domain root; keep `docs/CNAME` in
+every deployment. The previous GitHub Pages address redirects to this domain.
 The account and API service stay on their own HTTPS hosts (for example
 `account.kivo.com.ai` and `api.kivo.com.ai`); GitHub Pages only serves the
 static landing page and download.
