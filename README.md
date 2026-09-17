@@ -15,6 +15,6 @@ GitHub Pages publishes the `docs/` folder on `main`. The site supports English a
 
 This repository contains only the generated website and downloadable Mac app. The application source is maintained separately.
 
-The Kivo 0.26.2 (build 51) Mac download is a Developer ID signed, Apple-notarized DMG. Open it and drag Kivo into Applications. It requires macOS 26 or later on Apple silicon.
+The Kivo 0.26.3 (build 52) Mac download is a Developer ID signed, Apple-notarized DMG. Open it and drag Kivo into Applications. It requires macOS 26 or later on Apple silicon.
 
-Version 0.26.2 keeps temporary compiler caches out of result snapshots and lets you retry saving a result locally without restarting the agent. Source files, data and finished app bundles remain included; file and size limits still apply. It also includes task continuation and persistent failure explanations from 0.26.1. Account sign-in and beta access run on the separate account/API services; this repository contains no account data or secrets.
+Version 0.26.3 applies the same compiler-cache filtering when accepting a result and when saving its timeline snapshot, including project-prefixed cache folders. Source files, data and finished app bundles remain included; file and size limits still apply. You can retry saving a result locally without restarting the agent. Account sign-in and beta access run on the separate account/API services; this repository contains no account data or secrets.
