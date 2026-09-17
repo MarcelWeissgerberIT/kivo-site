@@ -15,6 +15,6 @@ GitHub Pages publishes the `docs/` folder on `main`. The site supports English a
 
 This repository contains only the generated website and downloadable Mac app. The application source is maintained separately.
 
-The Kivo 0.11.0 Mac download is a Developer ID signed, Apple-notarized DMG. Open it and drag Kivo into Applications. It requires macOS 26 or later on Apple silicon.
+The Kivo 0.26.1 (build 50) Mac download is a Developer ID signed, Apple-notarized DMG. Open it and drag Kivo into Applications. It requires macOS 26 or later on Apple silicon.
 
-Version 0.11.0 adds the bilingual account and OAuth-ready commerce flow, clearer cycle and question status, self-improving task rounds, result cards, local voice feedback, MCP tool controls and the signed Mac connection. Public account and review services require an operator-configured HTTPS backend; they are not enabled by this static website.
+Version 0.26.1 adds explicit continuation of failed or stopped tasks, persistent failure explanations, early agent-session recovery and reliable handling of larger Codex responses. Task files, usage and permission budgets stay with the existing task. Account sign-in and beta access run on the separate account/API services; this repository contains no account data or secrets.
